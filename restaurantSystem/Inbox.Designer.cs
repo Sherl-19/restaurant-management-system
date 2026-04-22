@@ -38,7 +38,7 @@
             // 
             this.back_btn.Location = new System.Drawing.Point(96, 367);
             this.back_btn.Name = "back_btn";
-            this.back_btn.Size = new System.Drawing.Size(75, 23);
+            this.back_btn.Size = new System.Drawing.Size(85, 35);
             this.back_btn.TabIndex = 1;
             this.back_btn.Text = "Back";
             this.back_btn.UseVisualStyleBackColor = true;
@@ -57,7 +57,7 @@
             // 
             this.complete_btn.Location = new System.Drawing.Point(651, 354);
             this.complete_btn.Name = "complete_btn";
-            this.complete_btn.Size = new System.Drawing.Size(75, 23);
+            this.complete_btn.Size = new System.Drawing.Size(87, 36);
             this.complete_btn.TabIndex = 3;
             this.complete_btn.Text = "Complete";
             this.complete_btn.UseVisualStyleBackColor = true;
