@@ -36,9 +36,9 @@
             // 
             // back_btn
             // 
-            this.back_btn.Location = new System.Drawing.Point(2, 473);
+            this.back_btn.Location = new System.Drawing.Point(22, 413);
             this.back_btn.Name = "back_btn";
-            this.back_btn.Size = new System.Drawing.Size(75, 23);
+            this.back_btn.Size = new System.Drawing.Size(95, 38);
             this.back_btn.TabIndex = 1;
             this.back_btn.Text = "Back";
             this.back_btn.UseVisualStyleBackColor = true;
@@ -47,15 +47,15 @@
             // Order_Load
             // 
             this.Order_Load.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Order_Load.Location = new System.Drawing.Point(49, 74);
+            this.Order_Load.Location = new System.Drawing.Point(22, 49);
             this.Order_Load.Name = "Order_Load";
-            this.Order_Load.Size = new System.Drawing.Size(693, 274);
+            this.Order_Load.Size = new System.Drawing.Size(768, 340);
             this.Order_Load.TabIndex = 3;
             this.Order_Load.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Order_Load_CellContentClick);
             // 
             // update_btn
             // 
-            this.update_btn.Location = new System.Drawing.Point(61, 354);
+            this.update_btn.Location = new System.Drawing.Point(715, 395);
             this.update_btn.Name = "update_btn";
             this.update_btn.Size = new System.Drawing.Size(75, 23);
             this.update_btn.TabIndex = 4;
