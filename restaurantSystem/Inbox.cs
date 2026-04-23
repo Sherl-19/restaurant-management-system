@@ -120,10 +120,11 @@ namespace restaurantSystem
         {
             if (inbox_table.CurrentRow != null)
             {
-                string id = inbox_table.CurrentRow.Cells["id"].Value.ToString();
-
                 try
                 {
+                    // 🔥 FIX COLUMN NAME (IMPORTANT)
+                    string id = inbox_table.CurrentRow.Cells["o_id"].Value.ToString();
+
                     WebClient client = new WebClient();
 
                     var data = new System.Collections.Specialized.NameValueCollection();
@@ -134,7 +135,7 @@ namespace restaurantSystem
                         data
                     );
 
-                    string result = Encoding.UTF8.GetString(response);
+                    string result = Encoding.UTF8.GetString(response).Trim();
 
                     if (result == "success")
                     {
@@ -145,16 +146,16 @@ namespace restaurantSystem
                     }
                     else
                     {
-                        MessageBox.Show("Update failed");
+                        MessageBox.Show("Update failed: " + result);
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show("Error: " + ex.Message);
                 }
             }
+            }
         }
-    }
 }
     
 
